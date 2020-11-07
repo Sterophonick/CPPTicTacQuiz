@@ -1,0 +1,92 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceFolder}",
+                "${workspaceFolder}/include",
+				"${workspaceFolder}/build",
+				"/opt/devkitPro/libgba/include",
+                "/opt/devkitPro/devkitARM/arm-none-eabi/include",
+                "/opt/devkitPro/devkitARM/lib/gcc/arm-none-eabi/10.2.0/include"
+            ],
+            "defines": [],
+            "intelliSenseMode": "gcc-arm",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceFolder}",
+                    "${workspaceFolder}/include",
+					"${workspaceFolder}/build",
+					"/opt/devkitPro/libgba/include",
+                    "/opt/devkitPro/devkitARM/arm-none-eabi/include",
+                    "/opt/devkitPro/devkitARM/lib/gcc/arm-none-eabi/10.2.0/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ]
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceFolder}/include",
+				"${workspaceFolder}/build"
+            ],
+            "defines": [],
+            "intelliSenseMode": "gcc-arm",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceFolder}/include",
+					"${workspaceFolder}/build"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/include",
+				"${workspaceFolder}/build",
+				"C:/devkitPro/libgba/include",
+                "C:/devkitPro/devkitARM/arm-none-eabi/include",
+                "C:/devkitPro/devkitARM/lib/gcc/arm-none-eabi/10.2.0/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "ARM7",
+                "WIN32"
+            ],
+            "intelliSenseMode": "gcc-arm",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "${workspaceFolder}/include",
+					"${workspaceFolder}/build",
+					"C:/devkitPro/libgba/include",
+                    "C:/devkitPro/devkitARM/arm-none-eabi/include",
+                    "C:/devkitPro/devkitARM/lib/gcc/arm-none-eabi/10.2.0/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
